@@ -34,7 +34,7 @@ function getRangeRandom(low, high) {
  * 获取 0~30° 之间的一个任意正负值
  */
 function get30DegRandom() {
-  return ((Math.random() > 0.5) ? '' : '-' + Math.ceil(Math.random() * 30));
+  return ((Math.random() > 0.5 ? '' : '-') + Math.ceil(Math.random() * 30));
 }
 
 var ImgFigure = React.createClass({
